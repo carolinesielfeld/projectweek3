@@ -48,3 +48,5 @@ mergeddata[75:76] <- list(NULL)
 mergeddata[77:84] <- list(NULL)
 mergeddata[78:79] <- list(NULL)
 #now mergeddata has only info of means and stds
+#exporting now as a txt file
+write.table(mergeddata, "./tidyDataCaroline.txt", sep="\t")
